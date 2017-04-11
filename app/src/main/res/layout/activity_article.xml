@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_article"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.frame.huxh.mvpdemo.activity.ArticleActivity">
+    <include layout="@layout/widget_toolbar" />
+    <com.frame.huxh.mvpdemo.pull.PullRecycler
+        android:id="@+id/article_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.frame.huxh.mvpdemo.pull.PullRecycler>
+
+
+
+</LinearLayout>

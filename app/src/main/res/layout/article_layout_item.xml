@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_margin="8dp"
+              android:layout_height="60dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:id="@+id/tv_dailytype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:id="@+id/tv_context"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12dp"
+        android:layout_height="0dp"/>
+
+        <TextView
+            android:id="@+id/tv_list_context"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:visibility="gone"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/img_article"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        />
+
+</LinearLayout>

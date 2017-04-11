@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVPDemo</string>
+    <string name="zhihu_daily">知乎日报</string>
+    <string name="title_activity_article_detail">ArticleDetailActivity</string>
+</resources>

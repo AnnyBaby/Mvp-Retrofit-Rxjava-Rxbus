@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_acticle_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.frame.huxh.mvpdemo.activity.ActicleListActivity">
+    <include
+        layout="@layout/widget_toolbar"
+        ></include>
+    <ImageView
+        android:id="@+id/image_top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:id="@+id/editor"
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/app_primary_dark_color"/>
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent"/>
+    <com.frame.huxh.mvpdemo.pull.PullRecycler
+        android:layout_marginTop="8dp"
+        android:id="@+id/acticle_pullRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.frame.huxh.mvpdemo.pull.PullRecycler>
+
+
+</LinearLayout>
